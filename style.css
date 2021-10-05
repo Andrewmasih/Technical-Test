@@ -1,0 +1,982 @@
+
+
+
+
+
+
+*{ 
+  margin: 0;
+  padding: 0;   
+  border: 0;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+
+#section1 {
+  background-color: white;
+  position: relative;
+  top: 130px; 
+  height: 100px; 
+  width: 50%;  
+
+} 
+
+#section1-text {
+  background-color:white;
+  position: absolute;
+  right: 0px;
+  top: 130px;
+  font-size: 12px;  
+  font-family: sans-serif;
+  width: 50%; 
+  height: 100px; 
+  padding-top: 25px;
+  padding-left: 5px;
+  
+}
+
+
+#ambalance {
+  position: absolute;
+  top: 0px;
+  height: 100px;
+  width: auto;
+  
+ 
+}
+
+
+
+#section2 {
+  background-color: white;
+  position: relative;
+  top: 130px; 
+  height: 100px; 
+  width: 50%; 
+    
+}
+
+  
+#section2-text {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  top: 230px;
+  font-size: 12px;  
+  font-family: sans-serif;
+  width: 50%;
+  height: 100px;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
+
+#red-sports-car {
+  position: absolute;
+  top: 0px;
+  height: 100px;
+  width: auto;
+  
+}
+
+
+#section3 {
+  background-color: white;
+  position: relative;
+  top: 130px;
+  width: 50%;
+  height: 100px;
+}
+
+
+#section3-text {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  top: 330px;
+  font-size: 12px;  
+  font-family: sans-serif;
+  width: 50%;
+  height: 100px;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
+#buggy {
+  position: absolute;
+  top: 0px;
+  height: 100px;
+  width: auto;
+  
+}
+
+
+
+#section4 {
+  background-color: white;
+  position: relative;
+  top: 130px;
+  height: 100px;
+  width: 50%;
+  
+
+}
+
+
+#section4-text {
+  background-color:white;
+  position: absolute;
+  right: 0px;
+  top: 430px;
+  font-size: 12px; 
+  font-family: sans-serif;
+  width: 50%;
+  height: 75px;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
+
+
+#trailer {
+  position: absolute;
+  top: 0px;
+  height: 100px;
+  width: auto;
+  
+}
+
+
+@media (min-width: 420px) {
+
+  #ambalance {    
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 30px;
+    
+
+  }
+
+  #red-sports-car {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 30px;
+
+  }
+
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 30px;
+
+  }
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 30px;
+
+  }
+
+  
+}
+
+
+
+@media (min-width: 500px) {
+
+  #ambalance {    
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 60px;
+
+  }
+
+  #red-sports-car {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 60px;
+
+  }
+
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 60px;
+
+  }
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 60px;
+
+  }
+
+  
+}
+
+
+@media (min-width: 600px) {
+
+  #ambalance {    
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 110px;
+
+  }
+
+  #red-sports-car {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 110px;
+
+  }
+
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 110px;
+
+  }
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 110px;
+
+  }
+
+  
+}
+
+
+@media (min-width: 700px) {
+
+  #ambalance {    
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 160px;
+
+  }
+
+  #red-sports-car {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 160px;
+
+  }
+
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 160px;
+
+  }
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    margin-left: 160px;
+
+  }
+
+  
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  
+  *{ 
+    margin: 0;
+    padding: 0;   
+    border: 0;
+  }
+
+
+  body {
+    background-color: white;
+  }
+
+
+
+
+  #section1 {   
+    position: relative;
+    top: 0px; 
+    height: 300px; 
+    width: 50%;  
+
+  } 
+
+  #section1-text {    
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 0px;
+    width: 50%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+  
+  }
+
+
+  #ambalance {
+    position: absolute;
+    right: 60px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    z-index: 1;
+  
+ 
+  }
+
+
+
+  #section2 {
+    position: relative;
+    top: -300px;
+    height: 300px;
+    width: 50%;
+    left: 385px;
+    z-index: -1;
+    
+  }
+
+  
+  #section2-text {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-right: 0px;
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+  #red-sports-car {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+  }
+
+
+  #section3 {
+    position: relative;
+    top: -275px; 
+    height: 300px; 
+    width: 50%;  
+
+  }
+
+
+  #section3-text {
+    position: absolute;
+    left: 0px;
+    top: 525px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 0px;
+    width: 50%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+    z-index: 2;
+
+  }
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 60px;
+    z-index: 3;
+  
+  }
+
+
+
+  #section4 {
+    position: relative;
+    top: -575px;
+    height: 300px;
+    width: 50%;
+    left: 385px;
+  
+
+  }
+
+
+  #section4-text {
+    position: absolute;
+    right: 0px;
+    top: 525px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-right: 0px;
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 0px
+  
+  }
+
+}
+
+
+
+@media (min-width: 900px) {
+
+  *{ 
+    margin: 0;
+    padding: 0;   
+    border: 0;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  
+  #section1 {
+    position: relative;
+    top: 0px; 
+    height: 300px; 
+    width: 50%;  
+
+  } 
+
+  #section1-text {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 65px;
+    width: 50%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+  
+  }
+
+
+  #ambalance {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+ 
+  }
+
+
+
+  #section2 {
+    position: relative;
+    top: -300px;
+    height: 300px;
+    width: 50%;
+    left: 385px;
+    
+  }
+
+  
+  #section2-text {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-right: 25px;
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+  #red-sports-car {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+  }
+
+
+  #section3 {
+    position: relative;
+    top: -275px; 
+    height: 300px; 
+    width: 50%;  
+
+  }
+
+
+  #section3-text {
+    position: absolute;
+    left: 0px;
+    top: 525px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 65px;
+    width: 50%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 0px;
+  
+  }
+
+
+
+  #section4 {
+    position: relative;
+    top: -575px;
+    height: 300px;
+    width: 50%;
+    left: 385px;
+  
+
+  }
+
+
+  #section4-text {
+    position: absolute;
+    right: 0px;
+    top: 525px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-right: 25px;
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 0px
+  
+  }
+
+}
+
+@media (min-width: 1070px) {
+
+  *{ 
+    margin: 0;
+    padding: 0;   
+    border: 0;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  
+  #section1 {
+    position: relative;
+    top: 0px; 
+    height: 300px; 
+    width: 50%;  
+
+  } 
+
+  #section1-text {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 105px;
+    width: 50%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+  
+  }
+
+
+  #ambalance {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+ 
+  }
+
+
+
+  #section2 {
+    position: relative;
+    top: -300px;
+    height: 300px;
+    width: 50%;
+    left: 385px;
+    
+  }
+
+  
+  #section2-text {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-right: 55px;
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+  #red-sports-car {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+  }
+
+
+  #section3 {
+    position: relative;
+    top: -275px; 
+    height: 300px; 
+    width: 50%;  
+
+  }
+
+
+  #section3-text {
+    position: absolute;
+    left: 0px;
+    top: 525px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 105px;
+    width: 50%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 0px;
+  
+  }
+
+
+
+  #section4 {
+    position: relative;
+    top: -575px;
+    height: 300px;
+    width: 50%;
+    left: 385px;
+  
+
+  }
+
+
+  #section4-text {
+    position: absolute;
+    right: 0px;
+    top: 525px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-right: 55px;
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 0px
+  
+  }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+  *{ 
+    margin: 0;
+    padding: 0;   
+    border: 0;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  
+  #section1 {
+    position: relative;
+    top: 200px; 
+    height: 300px; 
+    width: 25%;  
+
+  } 
+
+  #section1-text {
+    position: absolute;
+    left: -50px;
+    top: 400px;
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 25%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  
+  }
+
+
+  #ambalance {
+    position: absolute;
+    right: -45px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+ 
+  }
+
+
+
+  #section2 {
+    position: relative;
+    top: -100px; 
+    height: 300px; 
+    width: 25%;  
+    left: 325px;
+    
+  }
+
+  
+  #section2-text {
+    position: absolute;
+    left: 305px;
+    top: 400px;
+    font-size: 12px;  
+    font-family: sans-serif;    
+    width: 25%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+  #red-sports-car {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 200px;
+    width: auto;
+  
+  }
+
+
+  #section3 {
+    position: relative;
+    top: -400px;
+    height: 300px; 
+    width: 25%;  
+    left: 700px;
+
+  }
+
+
+  #section3-text {
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    padding-left: 0px;
+    width: 25%; 
+    height: 100px; 
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  #buggy {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 50px;
+  
+  }
+
+
+
+  #section4 {
+    position: relative;
+    top: -700px; 
+    height: 300px; 
+    width: 25%; 
+    left: 975px; 
+  
+
+  }
+
+
+  #section4-text {
+    position: absolute;
+    right: -60px;
+    top: 400px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    width: 25%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+
+
+  #trailer {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: auto;
+    right: 20px;
+    z-index: 4;
+  
+  }
+
+}
+
+
+@media (min-width: 1300px) {
+
+  #section4-text {
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    font-size: 12px;  
+    font-family: sans-serif;
+    width: 25%;
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+    margin-right: 30px;
+
+  }
+
+  #section3-text {
+    margin-left: 50px;
+  }
+
+
+} 
+
+
+
